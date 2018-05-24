@@ -1,5 +1,13 @@
-<?php
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
 
+
+<?php
         if (isset ($_POST["sexe"]) && isset ($_POST["prenom"]) && isset($_POST["nom"])) {
         $sexe = $_POST["sexe"];
         $prenom = (string) $_POST ["prenom"];
@@ -16,9 +24,24 @@
     else {
       $remember = 'ne pas se souvenir de moi';
     }
+?>
+        $message = <table>
+          <tr>
+             <th><label>Titre:<span class="ast">*</span></label></th>
+             <th>'<p> . $sexe . '</p></tr>
+          <tr>
+            <td><label>Prénom:<span class="ast">*</span></label></td>
+            <td> <p>' .  $prenom . '</p> </tr>
+          <tr>
+            <td><label>Nom:<span class="ast">*</span></label></td>
+            <td> <p>' . $nom . '</p> </td>
+          </tr>
+          <tr>
+            <td>email:</td>
+            <td> <p>' . $email . '</p> </tr>
+        </table>
 
-        $message =
-
+<?php
         '<h2>Demande prise en compte</h2>
         <p>Titre : ' . $sexe . '.</p>
         <p>Prénom : ' .  $prenom . '.</p>
@@ -40,3 +63,5 @@
 
 
 ?>
+</body>
+</html>

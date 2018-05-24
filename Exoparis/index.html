@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire Paris</title>
+    <link rel="stylesheet"  type="text/CSS" href="css/style.css">
+    <link rel="stylesheet" href="index.js">
+  </head>
+  <body>
+
+    <header>
+      <img id="logo" src="image/1.jpg" alt="Logo_page">
+      <h2 id="textlogo">Formulaire pour Paris</h2>
+    </header> <br><br>
+
+    <div class="formulaire">
+      <form method="post" action="formulaire.php">
+        <table>
+          <tr>
+             <th><label>Titre:<span class="ast">*</span></label></th>
+             <th><input type="radio" id="mr" name="sexe" value="Homme"<h3>MR</h3 >
+                 <input type="radio" id="mme" name="sexe" value="Femme"<h3>MME</h3></th>
+          </tr>
+          <tr>
+            <td><label>Prénom:<span class="ast">*</span></label></td>
+            <td><input type="text" id="prenom" name="prenom"></td>
+          </tr>
+          <tr>
+            <td><label>Nom:<span class="ast">*</span></label></td>
+            <td><input type="text" id="nom" name="nom"></td>
+          </tr>
+          <tr>
+            <td>email:</td>
+            <td><input type="email" id="email" name="email"></td>
+          </tr>
+        </table>
+        <input type="checkbox" name="remember" value="remember"<h3>Se souvenir de moi</h3><br><br>
+        <h3>*obligatoire</h3><br>
+
+        <input class="button" type="submit" value="Envoyer" onclick="verifier()">
+
+        </script>
+      </form>
+    </div>
+  </body>
+</html>

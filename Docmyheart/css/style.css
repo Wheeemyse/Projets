@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+body{
+  font-family: 'Arvo', serif;
+}
+main{
+  display: flex;
+}
+html{
+  height: 100px;
+}
+#humain{
+  margin-left: 35%;
+  position: relative;
+}
+#epaule{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  
+}
+.textepaule{
+  width: 30%;
+
+}
+
+
+
+/*#image:hover #epaule{
+  display: block;
+}*/

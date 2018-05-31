@@ -1,14 +1,25 @@
+.contenu{
+  background-color: #3ea0c4;
+}
 .photo{
-  height: 200px;
-  width: auto;
+  height: auto;
+  width: 150px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .testbar{
-  background-color: lightblue;
+  background-color: #3ec49e;
   height: max-content;
   padding-left: 0px;
   text-align: center;
+  position: fixed;
+}
+h4{
+  background-color: lightblue;
+  margin-right: 0px;
+  display: inline-block;
+  padding: 5px 30px 5px 30px;
+  margin-left: 0px;
+  font-weight: 500;
 }

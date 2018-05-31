@@ -3,6 +3,7 @@ h1{
 }
 body{
   font-family: 'Arvo', serif;
+  background-color: lightblue;
 }
 main{
   display: flex;
@@ -14,22 +15,155 @@ html{
   margin-left: 35%;
   position: relative;
 }
-#epaule{
-  width: 100px;
-  height: 100px;
-  background: red;
+
+/*EPAULE*/
+#cercleepaule{
+  width: 50px;
+  height: 50px;
+  background: black;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  
+  opacity: 0.5;
+  position: absolute;
+  top: 167px;
+  left: 35%;
 }
 .textepaule{
   width: 30%;
-
+  display: none;
+  margin-left: 40px;
+}
+#cercleepaule:hover {
+  background: red;
 }
 
-
-
-/*#image:hover #epaule{
+#cercleepaule:hover + .textepaule{
   display: block;
-}*/
+}
+
+/*COUDE*/
+#cerclecoude{
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  top: 260px;
+  left: 43%;
+}
+.textcoude{
+  width: 30%;
+  display: none;
+  margin-left: 40px;
+}
+#cerclecoude:hover {
+  background: red;
+}
+
+#cerclecoude:hover + .textcoude{
+  display: block;
+}
+/*POIGNET*/
+#cerclepoignet{
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  top: 300px;
+  left: 34%;
+}
+.textpoignet{
+  width: 30%;
+  display: none;
+  margin-left: 40px;
+}
+#cerclepoignet:hover {
+  background: red;
+}
+
+#cerclepoignet:hover + .textpoignet{
+  display: block;
+}
+/*Hanche*/
+#cerclehanche{
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  top: 320px;
+  left: 42%;
+}
+.texthanche{
+  width: 30%;
+  display: none;
+  margin-left: 40px;
+}
+#cerclehanche:hover {
+  background: red;
+}
+
+#cerclehanche:hover + .texthanche{
+  display: block;
+}
+/*Genou*/
+#cerclegenou{
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  top: 420px;
+  left: 37%;
+}
+.textgenou{
+  width: 30%;
+  display: none;
+  margin-left: 40px;
+}
+#cerclegenou:hover {
+  background: red;
+}
+
+#cerclegenou:hover + .textgenou{
+  display: block;
+}
+/*Cheville*/
+#cerclecheville{
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  top: 510px;
+  left: 40%;
+}
+.textcheville{
+  width: 30%;
+  display: none;
+  margin-left: 40px;
+}
+#cerclecheville:hover {
+  background: red;
+}
+
+#cerclecheville:hover + .textcheville{
+  display: block;
+}

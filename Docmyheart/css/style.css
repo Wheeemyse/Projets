@@ -53,7 +53,8 @@ html{
   opacity: 0.5;
   position: absolute;
   top: 260px;
-  left: 44%;
+  left: 35%;
+  margin-left: 105px;
 }
 .textcoude{
   width: 30%;
@@ -103,7 +104,8 @@ html{
   opacity: 0.5;
   position: absolute;
   top: 320px;
-  left: 43%;
+  left: 35%;
+  margin-left: 80px;
 }
 .texthanche{
   width: 30%;
@@ -153,7 +155,8 @@ html{
   opacity: 0.5;
   position: absolute;
   top: 510px;
-  left: 41%;
+  left: 35%;
+  margin-left: 70px;
 }
 .textcheville{
   width: 30%;

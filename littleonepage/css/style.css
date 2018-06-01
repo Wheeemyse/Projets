@@ -44,9 +44,8 @@ table {
 /*fin du reset css*/
 header{
   background-image: url("file:///home/utilisateur/github/Projets/littleonepage/image/banniere.jpg");
-  height: 200px;
+  height: auto;
   width: 100%;
-  position: absolute;
 }
 h1{
     text-align: center;
@@ -60,8 +59,6 @@ h2.baseline{
   text-align: center;
   padding: 10px 0;
   background-color: #ff3333;
-  position: relative;
-  bottom: -52px;
 }
 a{
   padding: 9px;
@@ -71,7 +68,6 @@ a:hover{
   background-color: black;
 }
 main{
-
   margin: 0 auto;
   max-width: 980px;
 }

@@ -42,6 +42,12 @@ table {
 	border-spacing: 0;
 }
 /*fin du reset css*/
+
+
+html{
+	font-size: 62.5%;
+	font-family: Trebuchet monospace, Arial;
+}
 header{
   background-image: url("file:///home/utilisateur/github/Projets/littleonepage/image/banniere.jpg");
   height: auto;
@@ -50,19 +56,38 @@ header{
 h1{
     text-align: center;
     padding-top: 40px;
+		font-size: 6rem;
 }
 h2.baseline{
   text-align:center;
   padding-bottom: 40px;
+	font-size: 3.6rem;
+	padding-top: 0px;
+}
+h2{
+	font-size: 3.6rem;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+p{
+	font-size: 1.6rem;
+
+
+}
+.dupont{
+	font-size: 1.8rem;
+	font-weight: bold;
 }
 .navbar{
   text-align: center;
   padding: 10px 0;
   background-color: #ff3333;
+	box-shadow: 3px 10px 5px grey;
 }
 a{
   padding: 9px;
   color: white;
+	font-size: 2.2rem;
 }
 a:hover{
   background-color: black;
@@ -73,7 +98,9 @@ main{
 }
 .card, .card2, .card3{
   display: flex;
+	padding-top: 20px;
 }
+
 figure{
   padding: 0 7px;
 }
@@ -84,8 +111,9 @@ iframe{
   position: absolute;
   left: 0px;
   width: 100%;
+	padding-top: 20px;
 }
-.soustitre3{
+#soustitre3{
   position: relative;
   top: 450px;
 }
@@ -98,6 +126,11 @@ form{
 }
 .send{
   margin-left: 25%;
+	background-color: #846add;
+	width: 130px;
+	height: 30px;
+	border-radius: 20px;
+	color: white;
 }
 footer{
   position: relative;
@@ -108,4 +141,28 @@ footer{
 }
 .logo{
   padding-top: 5%;
+}
+i.foot{
+	font-size: 5rem;
+	padding-left: 3rem;
+	color: white;
+}
+input, textarea{
+	padding-left: 25px;
+}
+.logoform{
+	position: relative;
+	right: 260px;
+	font-size: 15px;
+	color: grey;
+}
+.logoarea{
+	position: relative;
+	bottom: 224px;
+	right: 265px;
+	font-size: 15px;
+	color: grey;
+}
+input.send{
+	padding-left: 0px;
 }

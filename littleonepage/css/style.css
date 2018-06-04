@@ -167,3 +167,6 @@ input, textarea{
 input.send{
 	padding-left: 0px;
 }
+.card3{
+	justify-content: center;
+}

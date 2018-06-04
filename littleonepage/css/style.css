@@ -43,10 +43,11 @@ table {
 }
 /*fin du reset css*/
 
-
+body{
+	font-family: Trebuchet monospace, Arial;
+}
 html{
 	font-size: 62.5%;
-	font-family: Trebuchet monospace, Arial;
 }
 header{
   background-image: url("file:///home/utilisateur/github/Projets/littleonepage/image/banniere.jpg");

@@ -2,11 +2,109 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Location auto Simplon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylelocation.css">
   </head>
   <body>
     <nav>
-      
+      <a href="#berline">Berline</a>
+      <a href="#sport">Voiture de sport</a>
+      <a href="break">Break</a>
+      <a href="suv">SUV</a>
+      <a href="#">Cabriolet</a>
+      <a href="#">Limousine</a>
     </nav>
+    <h2 class="cartype" id="berline">Berline</h2> <br><br>
+    <div class="berline">
+      <div>
+        <figure>
+          <img src="image/berline/1.png" alt="Berline1">
+          <p> BMW Série 1 aut., VW Golf VII automatique </p>
+        </figure>
+        <figure>
+          <img src="image/berline/2.png" alt="Berline1">
+          <p>Mercedes-Benz E Class automatique</p>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="image/berline/3.png" alt="Berline1">
+          <p>Maserati Ghibli 3.0 V6d </p>
+        </figure>
+        <figure>
+          <img src="image/berline/4.png" alt="Berline1">
+          <p>Renault Talisman automatique</p>
+        </figure>
+      </div>
+    </div>
+    <h2 class="cartype" id="sport">Voiture de sport</h2>
+    <div>
+      <div class="sportitem">
+        <img src="image/sport/1.png" alt="1">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+
+      </div>
+      <div class="sportitem">
+        <img src="image/sport/2.png" alt="2">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+      </div>
+      <div class="sportitem">
+        <img src="image/sport/3.png" alt="3">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+      </div>
+      <div class="sportitem">
+        <img src="image/sport/4.png" alt="4">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+      </div>
+    </div>
+    <h2 class="cartype" id="break">Break</h2>
+    <div>
+      <div class="sportitem">
+        <img src="image/sport/1.png" alt="1">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+
+      </div>
+      <div class="sportitem">
+        <img src="image/break/2.png" alt="2">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+      </div>
+      <div class="sportitem">
+        <img src="image/break/3.png" alt="3">
+        <p class="textsport">Suosque maximum grege ita virum anteibat se anteposuit erat vero virum parem quaedam aetate numquam Q is posse virum inferioris in est se quod numquam enim nequaquam Mummio Saepe anteposuit.</p>
+      </div>
+    </div>
+    <h2 class="cartype" id="suv">SUV</h2>
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="image/suv/1.png" style="width:100%">
+      <img class="mySlides" src="image/suv/2.png" style="width:100%">
+      <img class="mySlides" src="image/suv/3.png" style="width:100%">
+      <img class="mySlides" src="image/suv/4.png" style="width:100%">
+      <button type="button" class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
+      <button type="button"class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
+
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }
+    </script>
+
+
+
   </body>
 </html>

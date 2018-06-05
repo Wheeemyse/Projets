@@ -46,7 +46,7 @@ html{
   font-size: 62.5%;
 }
 /*body{
-  background-color: lightblue;
+  background-color: #0f2847;
 }*/
  nav{
    text-align: center;
@@ -84,4 +84,19 @@ html{
 }
 h2{
   font-size: 3.6rem;
+}
+.leftbutton{
+	position: relative;
+	bottom:300px;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+}
+.rightbutton{
+	position: relative;
+	float: right;
+	bottom: 300px;
+	font-size: 30px;
+	background-color: black;
+	color: white;
 }

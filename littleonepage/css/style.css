@@ -50,7 +50,7 @@ html{
 	font-size: 62.5%;
 }
 header{
-  background-image: url("file:///home/utilisateur/github/Projets/littleonepage/image/banniere.jpg");
+  background-image: url("../image/banniere.jpg");
   height: auto;
   width: 100%;
 }
@@ -85,10 +85,15 @@ p{
   background-color: #ff3333;
 	box-shadow: 3px 10px 5px grey;
 }
+span{
+	font-size: 2.5rem;
+	color: white;
+}
 a{
   padding: 9px;
   color: white;
 	font-size: 2.2rem;
+	text-decoration: none;
 }
 a:hover{
   background-color: black;
@@ -141,32 +146,35 @@ footer{
   text-align: center;
 }
 .logo{
-  padding-top: 5%;
+  padding-top: 4%;
 }
 i.foot{
 	font-size: 5rem;
 	padding-left: 3rem;
 	color: white;
 }
+.formulaire{
+	width: 480px;
+}
 input, textarea{
 	padding-left: 25px;
+	width: 410px;
 }
 .logoform{
-	position: relative;
-	right: 260px;
+	position: absolute;
+	right: 425px;
+	margin-top: 7px;
 	font-size: 15px;
 	color: grey;
 }
 .logoarea{
 	position: relative;
-	bottom: 224px;
-	right: 265px;
+	bottom: 253px;
+	left: 8px;
 	font-size: 15px;
 	color: grey;
 }
 input.send{
 	padding-left: 0px;
-}
-.card3{
-	justify-content: center;
+	box-shadow: 3px 10px 5px grey;
 }

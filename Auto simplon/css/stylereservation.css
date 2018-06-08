@@ -52,9 +52,16 @@ label{
 	float: left;
 	font-size: 18px;
 	margin-top: 6px;
+	color: white;
 }
 .saisie{
 	float: right;
 	width: 300px;
-	font-size:
+}
+body{
+	background-image: url(../image/newsletter.jpg);
+
+}
+img{
+	width: 100%;
 }

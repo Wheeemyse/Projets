@@ -2,9 +2,28 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/stylereservation.css">
   </head>
   <body>
-    <p>Test reservation</p>
+    <form class="formulaire" action="index.html" method="post"><br>
+      <div class="contener">
+        <label for="nom">Nom:</label>
+        <input class="saisie" type="text" name="nom" id="nom" value="" required><br><br>
+        <label for="prenom">Prénom:</label>
+        <input class="saisie" type="text" name="prenom" id="prenom" value="" required><br><br>
+        <label for="adresse">Adresse complete:</label>
+        <input class="saisie" type="text" name="adresse" id="adresse" value="" required><br><br>
+        <label for="numero">Numero:</label>
+        <input class="saisie" type="text" name="numero" id="numero" value="" required><br><br>
+        <label for="modele">Modele:</label>
+        <input class="saisie" type="text" name="modele" id="modele" value="<?php echo $modele;?>" required><br><br>
+        <label for="datealler">Debut de location:</label>
+        <input class="saisie" type="date" name="datealler" id="datealler" value="" required><br><br>
+        <label for="dateretour">Fin de location:</label>
+        <input class="saisie" type="date" name="dateretour" id="dateretour" value="" required><br><br><br><br>
+        <input type="submit" name="" value="Envoyer">
+      </div>
+    </form>
   </body>
 </html>

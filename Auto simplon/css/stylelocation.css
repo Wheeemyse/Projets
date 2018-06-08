@@ -44,6 +44,7 @@ table {
  /*Fin du reset css*/
 html{
   font-size: 62.5%;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
 }
 /* body{
   background-color: #0f2847;
@@ -54,6 +55,9 @@ html{
    background-color: rgba(0, 0, 0);
 
  }
+p{
+	font-size: 1.5rem;
+}
  a{
    padding-left: 15px;
    padding-right: 15px;
@@ -118,4 +122,6 @@ a.reservation{
 		padding: 15px;
 		font-size: 2.5rem;
 		border-radius: 30px;
+		display: inline-block;
+		margin-top: 15px;
 }
